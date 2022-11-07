@@ -12,9 +12,7 @@ const Header = (props) => {
       <h2>
         <a data-testid="link" href="/">
           <span role="img" aria-label="camera">
-            {" "}
-            🙋‍♀️
-          </span>{" "}
+          </span>
           SIMONE BRIN
         </a>
       </h2>
