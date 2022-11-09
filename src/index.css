@@ -5,7 +5,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #000000;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -30,23 +30,22 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Roboto';
+  font-family: 'helvetica';
 
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: 'Noto Serif Display', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -302,6 +301,8 @@ a {
   right: 50%;
   left: 50%;
   bottom: 15%;
+  color:rgb(0, 0, 0);
+  font-family: 'Noto Serif Display';
 }
 
 .center__text{

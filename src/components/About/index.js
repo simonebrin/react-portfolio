@@ -4,7 +4,7 @@ import coverImage from "../../assets/coverImage/simsleeps.jpg";
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about"></h1>
+      {/* <h1 id="about"></h1> */}
       <img
         src={coverImage}
         className="my-2"
