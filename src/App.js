@@ -7,7 +7,8 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import About from './components/About';
 import Header from './components/Header';
-import Resume from './components/Resume'
+import Resume from './components/Resume';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         {currentCategory.name === "Contact" ? <ContactForm /> : <></>}
         {currentCategory.name === 'Resume' ? <Resume /> : <></>}
       </main>
+      <Footer/>
     </div>
   );
 }
