@@ -2,22 +2,24 @@ import React from 'react';
 import { GoMarkGithub } from "react-icons/go";
 
 
-const Project = ({project, key}) => {
+const Project = ({project, key, src}) => {
   return (
     <div key={key}>
-      <div className="head-text">
-        <div className="head-image">
-          <img src={project.image} alt="project" />
+      <div class="container">
+        <div class="image">
+          <img src={src} alt="project" />
         </div>
-        <div className="text-on-image">
-          <a href={project.url}>
-            <h3>{project.name}</h3>
-          </a>
-          <a href={project.github}>
-            <h2>
-              <GoMarkGithub />
-            </h2>
-          </a>
+        <div class="middle">
+          <div class="text">
+            <a href={project.url} target="_blank" rel="noreferrer">
+              <h3>{project.name}</h3>
+            </a>
+            <a href={project.github} target="_blank" rel="noreferrer">
+              <h2>
+                <GoMarkGithub />
+              </h2>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -25,6 +27,28 @@ const Project = ({project, key}) => {
 }
 
 export default Project
+
+// const Project = ({ project, key, src }) => {
+//   return (
+//     <div key={key}>
+//       <div className="head-text">
+//         <div className="head-image">
+//           <img src={src} alt="project" />
+//         </div>
+//         <div className="text-on-image">
+//           <a href={project.url} target="_blank" rel="noreferrer">
+//             <h3>{project.name}</h3>
+//           </a>
+//           <a href={project.github} target="_blank" rel="noreferrer">
+//             <h2>
+//               <GoMarkGithub />
+//             </h2>
+//           </a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 // const Project = ({ project, key }) => {
 //   return (
