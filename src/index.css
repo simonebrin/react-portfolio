@@ -2,11 +2,11 @@
 main {
 	margin: 0 auto;
 	max-width: 90%;
-  padding: 50px 30px;
+  /* padding: 50px 30px; */
 }
 :root {
   --primary: #000000;
-  --secondary: #F3A847;
+  --secondary: #47f3d6;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -15,6 +15,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  --meddark: rgb(129, 129, 129);
 
 }
 
@@ -36,7 +37,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'helvetica';
+  font-family: 'poppins';
 
 }
 
@@ -45,7 +46,7 @@ h2,
 h4,
 h5,
 h6 {
-  font-family: 'BD Supper';
+  font-family: 'Noto Serif Display';
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -62,6 +63,7 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
+  color:rgb(0, 0, 0);
 }
 
 h4 {
@@ -270,10 +272,10 @@ textarea {
 }
 
 button {
-	background: var(--primary);
+	background: white;
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: var(--primary);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -373,6 +375,18 @@ position: absolute;
 .this {
   color: white;
 text-align: center;
+}
+
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
 
 /* img {

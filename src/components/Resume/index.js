@@ -5,7 +5,7 @@ import resume from '../../assets/resumeImage/simone brin resume.pdf'
 const Resume = () => {
     return (
       <div>
-        <a download={resume} href={resumeImage}>
+        <a download={resume} href={resume}>
           <img src={resumeImage} alt="resume" />
         </a>
       </div>

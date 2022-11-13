@@ -15,9 +15,9 @@ const Project = ({project, key, src}) => {
               <h3>{project.name}</h3>
             </a>
             <a href={project.github} target="_blank" rel="noreferrer">
-              <h2>
+              <h3>
                 <GoMarkGithub />
-              </h2>
+              </h3>
             </a>
           </div>
         </div>
