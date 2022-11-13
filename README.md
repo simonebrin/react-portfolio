@@ -1,6 +1,6 @@
 # Portfolio
 
-## Link to deployed app:
+## Link to deployed app: http://simonebrin.github.io/react-portfolio
 
 ### Screenshots:
 <img width="648" alt="Screenshot 2022-11-13 at 1 26 31 PM" src="https://user-images.githubusercontent.com/106256478/201538249-6e7db7fa-9e5b-4613-8be7-5b41336c22a6.png">
