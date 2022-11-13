@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4f455c17.css",
-    "main.js": "/my-portfolio/static/js/main.01847ab5.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/Horiseon.png": "/my-portfolio/static/media/Horiseon.69ef0ec1291245f9d841.png",
-    "static/media/artCritic.png": "/my-portfolio/static/media/artCritic.72e424ebfaffe8418bf3.png",
-    "static/media/simsleeps.jpg": "/my-portfolio/static/media/simsleeps.2184b4389c6dbac30467.jpg",
-    "static/media/resumeImage.png": "/my-portfolio/static/media/resumeImage.556e8d342dea76a42fa7.png",
-    "static/media/weather.png": "/my-portfolio/static/media/weather.18d4988bf7b55a2c99b9.png",
-    "static/media/runbuddy.jpg": "/my-portfolio/static/media/runbuddy.27dae272e805498397a9.jpg",
-    "static/media/emoji.png": "/my-portfolio/static/media/emoji.7aabe3571dce09e126bc.png",
-    "static/media/scheduler.png": "/my-portfolio/static/media/scheduler.79d13533501fc047c170.png",
-    "static/media/simone brin resume.pdf": "/my-portfolio/static/media/simone brin resume.91f24d38effe4a20f9ef.pdf",
-    "index.html": "/my-portfolio/index.html",
-    "main.4f455c17.css.map": "/my-portfolio/static/css/main.4f455c17.css.map",
-    "main.01847ab5.js.map": "/my-portfolio/static/js/main.01847ab5.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.4f455c17.css",
+    "main.js": "/react-portfolio/static/js/main.b4a555f2.js",
+    "static/js/787.128fc6e9.chunk.js": "/react-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Horiseon.png": "/react-portfolio/static/media/Horiseon.69ef0ec1291245f9d841.png",
+    "static/media/artCritic.png": "/react-portfolio/static/media/artCritic.72e424ebfaffe8418bf3.png",
+    "static/media/simsleeps.jpg": "/react-portfolio/static/media/simsleeps.2184b4389c6dbac30467.jpg",
+    "static/media/resumeImage.png": "/react-portfolio/static/media/resumeImage.556e8d342dea76a42fa7.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.18d4988bf7b55a2c99b9.png",
+    "static/media/runbuddy.jpg": "/react-portfolio/static/media/runbuddy.27dae272e805498397a9.jpg",
+    "static/media/emoji.png": "/react-portfolio/static/media/emoji.7aabe3571dce09e126bc.png",
+    "static/media/scheduler.png": "/react-portfolio/static/media/scheduler.79d13533501fc047c170.png",
+    "static/media/simone brin resume.pdf": "/react-portfolio/static/media/simone brin resume.91f24d38effe4a20f9ef.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.4f455c17.css.map": "/react-portfolio/static/css/main.4f455c17.css.map",
+    "main.b4a555f2.js.map": "/react-portfolio/static/js/main.b4a555f2.js.map",
+    "787.128fc6e9.chunk.js.map": "/react-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f455c17.css",
-    "static/js/main.01847ab5.js"
+    "static/js/main.b4a555f2.js"
   ]
 }
